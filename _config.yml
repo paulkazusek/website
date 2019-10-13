@@ -4,3 +4,5 @@ description: Welcome to my blog on Jekyll
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 language: de
+
+include: ['_pages']
