@@ -1,3 +1,5 @@
+# General Settings
+title: "www.paul-kazusek.de" # the name of your site, e.g. ACME Corp.
+description: Welcome to my blog on Jekyll
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
