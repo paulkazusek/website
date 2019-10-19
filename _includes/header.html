@@ -8,7 +8,11 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav float-right ml-auto">
                 {% for item in site.data.navigation %}
+                {% if page.url == item.path %}
+                <li class="nav-item active">
+                {% else %} 
                 <li class="nav-item">
+                {% endif %}
                     <a class="nav-link" href="{{ item.path }}">{{ item.title }}</a>
                 </li>
                 {% endfor %}
