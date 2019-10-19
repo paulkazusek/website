@@ -1,12 +1,18 @@
 <header>
-    <div class="site-name nav-link"><a href="{{ site.url }}">{{ site.title }}</a></div>
-    <nav>
-        <ul class="nav">
-            {% for item in site.data.navigation %}
-            <li class="nav-item">
-                <a class="nav-link" href="{{ item.path }}">{{ item.title }}</a>
-            </li>
-            {% endfor %}
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav float-right ml-auto">
+                {% for item in site.data.navigation %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ item.path }}">{{ item.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     </nav>
 </header>
