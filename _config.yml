@@ -5,4 +5,20 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 language: de
 
+gems:
+  - jekyll-paginate-v2
+
 include: ['_pages']
+
+# Produces a cleaner folder structure when using categories
+permalink: /:year/:title
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  offset: 2
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
