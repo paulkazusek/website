@@ -7,7 +7,7 @@ tags: vscode ubuntu
 excerpt_separator: <!--more-->
 ---
 
-Visual Studio Code (VS Code) basiert auf dem Framework Electron ist ein plattformübergreifender Open Source Quellcode Editor von Microsoft. Es verfügt über eine integrierte Debbugung-Unterstützung, Versionsverwaltung mit Git, Syntax Highlighting, Code Vervollständigung und ein integriertes Terminal.
+Visual Studio Code (VS Code) basiert auf dem Framework Electron ist ein plattformübergreifender Open Source Quellcode Editor von Microsoft. Es verfügt über eine integrierte Debbuging-Unterstützung, Versionsverwaltung mit Git, Syntax Highlighting, Code Vervollständigung und ein integriertes Terminal.
 
 <!--more-->
 VS Code kann mit einer vielzahl von Programmiersprachen verwedent werden, weil es ein sprachunabhängiger Quellcode Editor ist. Unterschied zum Visual Studio oder anderen Entwicklungsumgebungen ist. In VC Code werden keine Solutions (*.sln) oder Projekte geöffnet und es wird nicht in den projektspezifischen Dateien gearbeitet. Sondern es werden Verzeichnisse geöffnett und von dort aus werden die Dateien bearbeitet.
